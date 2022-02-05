@@ -14,7 +14,7 @@
 <h1>Buscador de CEP's</h1>
 <form method="post" class="form">
     <div class="row">
-    <input class="form-control col-6" type="text" name="cep" placeholder="Digite seu CEP">
+    <input class="form-control col-6" type="text" name="cep" placeholder="Digite seu CEP" required>
     <button type="submit">Buscar CEP</button>
     </div>
 </form>

@@ -12,7 +12,7 @@ function getResponse(): array
     $cep = filter_var($_POST['cep'], FILTER_SANITIZE_STRING);
 
     if($cep === '') {
-        throw new Exception('Valor não passado, verifique os dados', '404' );
+        throw new Exception('Valor não informado, verifique os dados!', '404' );
     }
     $url = "https://viacep.com.br/ws/{$cep}/json/";
 
